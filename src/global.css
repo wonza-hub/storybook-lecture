@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #1d2745;
+  --color-secondary: #1de5d4;
+  --color-tertiary: #f52c50;
+  --color-white: #ffffff;
+  --color-mono100: #f1f1f1;
+  --color-mono200: #bebebe;
+  --color-error: #d01e1e;
+  --color-social: #395997;
+}
+
+@layer utilities {
+  .text-xs {
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0px;
+    font-weight: 400;
+  }
+  .text-sm {
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0px;
+    font-weight: 400;
+  }
+  .text-xl {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0px;
+    font-weight: 600;
+  }
+  .text-2xl {
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0px;
+    font-weight: 700;
+  }
+}
