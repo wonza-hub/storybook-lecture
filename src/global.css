@@ -11,6 +11,11 @@
   --color-social: #395997;
 }
 
+@layer base {
+  body {
+    font-family: "Noto Sans KR";
+  }
+}
 @layer utilities {
   .text-xs {
     font-size: 12px;
