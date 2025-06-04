@@ -23,6 +23,7 @@ const meta = {
     },
   },
   args: {
+    id: "email",
     iconAlt: "icon",
     iconPath: "https://kr.object.ncloudstorage.com/icons/ic-delete-dark.svg",
     placeholder: "텍스트 입력",

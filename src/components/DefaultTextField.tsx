@@ -3,6 +3,7 @@ import ErrorMessage from "./ErrorMessage";
 import { useState } from "react";
 
 interface IDefaultTextFieldProps {
+  id: string;
   errorMessage: string;
   iconPath: string;
   iconAlt: string;
@@ -13,6 +14,7 @@ interface IDefaultTextFieldProps {
   isError: boolean;
 }
 export default function DefaultTextField({
+  id,
   errorMessage,
   iconPath,
   iconAlt,
@@ -30,7 +32,7 @@ export default function DefaultTextField({
     : "border-primary";
 
   return (
-    <div>
+    <div className="relative text-field">
       <div
         onFocus={() => setIsFocused(true)}
         onBlur={() => setIsFocused(false)}
@@ -41,6 +43,7 @@ export default function DefaultTextField({
       `}
       >
         <input
+          id={id}
           placeholder={placeholder}
           value={value}
           type="text"

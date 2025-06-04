@@ -17,6 +17,13 @@
     font-family: "Noto Sans KR";
   }
 }
+
+@layer components {
+  .text-field > p {
+    @apply absolute;
+  }
+}
+
 @layer utilities {
   .text-xs {
     font-size: 12px;
