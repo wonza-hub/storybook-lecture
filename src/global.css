@@ -1,6 +1,7 @@
 @import "tailwindcss";
 
 @theme {
+  --color-dark: #111111;
   --color-primary: #1d2745;
   --color-secondary: #1de5d4;
   --color-tertiary: #f52c50;
@@ -10,6 +11,8 @@
   --color-mono300: #d6d7d9;
   --color-error: #d01e1e;
   --color-social: #395997;
+  --radius-primary-button: 5px;
+  --radius-tag-button: 17.5px;
 }
 
 @layer base {
