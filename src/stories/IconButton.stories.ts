@@ -5,7 +5,7 @@ import { fn } from "storybook/test";
 import IconButton from "../components/IconButton";
 
 const meta = {
-  title: "Text/IconButton",
+  title: "Buttons/IconButton",
   component: IconButton,
   parameters: {
     layout: "centered",
