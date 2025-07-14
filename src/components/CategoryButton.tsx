@@ -17,13 +17,13 @@ export default function CategoryButton({
       className={`
         rounded-button-default 
         border 
-        border-primary 
+        border-primary
         text-primary 
         text-base 
         font-bold
         pl-[22px]
         pr-[21px]
-        py-4
+        py-6
         flex-col-center
         `}
     >
