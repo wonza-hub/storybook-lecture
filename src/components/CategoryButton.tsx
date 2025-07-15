@@ -18,7 +18,7 @@ export default function CategoryButton({
         rounded-button-default 
         border 
         border-primary
-        text-primary 
+        text-mono100 
         text-base 
         font-bold
         pl-[22px]
