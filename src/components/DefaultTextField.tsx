@@ -43,6 +43,7 @@ export default function DefaultTextField({
       `}
       >
         <input
+          data-testid={id}
           id={id}
           placeholder={placeholder}
           value={value}
